@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:8080/api/analysis/predict';
+const API_BASE_URL = 'https://needed-quagga-ultimate.ngrok-free.app';
 
 export const useTradingAnalysis = (initialSymbol, initialInterval) => {
     const [symbol, setSymbol] = useState(initialSymbol);
